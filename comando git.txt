@@ -1,0 +1,37 @@
+======================================
+DENTRO DE LA CARPETA LE DAN CLICK DERECHO 
+======================================
+ Y buscan la opcion (open git bash here)
+- y sigen los comando para subir los proyectos 
+
+======================================
+COMANDO EXTRA 
+======================================
+git status  --> ese comando es para ver si el repositorio esta enlazado con git, caso contrario te mostrara si esta enlazado
+
+======================================
+SUBIR POR PRIMERA VEZ EL REPOS EL OWNER
+======================================
+Paso 1: Identificarse con git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+Paso 2: Inicializar el repositorio( se crea la carpeta .init)
+git init
+
+Paso 3:pone los archivos en modo stage(archivos estan listo para ser subido)
+git add .
+
+Paso 4:hacer commit(am es ol mensaje y se muestra todo lo que se va a subir)
+git commit -am "primer commit"
+=============================
+Paso 5:Crear el repositorio en gitlab.com --> (crear un repositorio privado en gitlab o github y copiar enlace)
+Privado-  solo pueden acceder los usuarios privilejiados 
+publico- todos pueden acceder solo con  el enlace
+============================
+Paso 6:conectarse al repositorio
+git remote add origin https://gitlab.com/marcelojimenezb/curso-python-basico.git
+					 
+
+Paso 7:hacer push push=presionar,subir     pull=jalar, descargar
+git push origin master

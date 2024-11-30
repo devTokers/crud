@@ -1,0 +1,6 @@
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #ffffff  !important;
+    background: #5364d4 !important;
+    font-weight: bold   !important;
+    border-radius: 10px;
+}
